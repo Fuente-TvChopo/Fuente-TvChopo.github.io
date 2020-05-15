@@ -1,0 +1,17 @@
+<settings>
+	<category label="[COLOR none]Creacion del addon[/COLOR]">
+		<setting label="Nombre del final de la carpeta del addon" type="text"  id="name_of_plugin_folder" default="" />	
+		<setting label="Nombre del addon" type="text"  id="name_of_addon" default="" />
+		<setting label="Version del addon" type="text"  id="addon_version_number" default="" />		
+		<setting label="Nombre del creador" type="text"  id="provider-name" default="" />   
+		<setting label="Breve descripción del addon" type="text"  id="sum_mary" default="" />	
+		<setting label="Extensa descripción de tu addon" type="text"  id="desc" default="" />
+	    <setting label="Dirección para guardar el zip" type="folder"  id="dst" default="" />				
+		<setting label="Dirección de tu icon.png" type="file"  id="addon_icon" default="" /> 	
+		<setting label="Dirección de tu fanart.jpg" type="file"  id="addon_fanart" default="" />
+		<setting label="URL de tu source" type="text"  id="online_xml" default="" />
+		</category>
+	<category label="[COLOR none]Música[/COLOR]">
+		<setting label="¿Activar música al abrir el script?" type="bool"  id="enable_music" default="true" />		
+		</category>
+</settings>
